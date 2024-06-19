@@ -59,7 +59,9 @@ pip install torch-geometric==2.3.0
  
  ./build.sh
  ```
- ### Step 3: Download EV-Layout dataset and Model Weights
+## Run inference on test set
+
+ ### Step 1: Download EV-Layout dataset and Model Weights
 Download the data for training and testing at the [link](https://1drv.ms/f/s!AjtGtw9IBVWZhqonTiZwt-3Wwh7otQ?e=ma5Qis)
 
 Put the downloaded data in the data directory
@@ -71,7 +73,7 @@ Put the downloaded data in the data directory
 |      |---test.json
 ```
 
- ### Step 4: Run inference on test set
+ ### Step 2: Run inference on test set
   ```bash
 python test.py --config_file ./config-files/Pred-SRW-S3D.yaml --seed 2 --model_path ./model/EV-Layout.pth
  ```
