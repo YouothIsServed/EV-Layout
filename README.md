@@ -12,6 +12,7 @@ Raw_data contains multiple sessions, each session containing all data collected 
 
 - **Labeled_img:** This folder includes a subset of images extracted from the Images folder, annotated using the labelme annotation tool.
 
+- **illumination:** The folder contains information recorded by the illuminance sensors..
 ```bash
 -dataset-part-1
 |---session_1
